@@ -1,0 +1,26 @@
+﻿@model CRUD_Sample1.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>新增員工資料</h2>
+
+<form method="post" action="~/Employee/Create">
+    <table class="table">
+        <tr>
+            <th>LastName</th>
+            <td>
+                @Html.TextBoxFor(m => m.Form1.LastName)
+            </td>
+        </tr>
+        <tr>
+            <th>FirstName</th>
+            <td>
+                @Html.TextBoxFor(m => m.Form1.FirstName)
+            </td>
+        </tr>
+    </table>
+    <input type="submit" class="btn btn-primary" value="送出" />
+</form>
+

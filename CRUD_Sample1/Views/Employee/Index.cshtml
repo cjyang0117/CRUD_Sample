@@ -1,0 +1,36 @@
+﻿@model CRUD_Sample1.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>員工清單</h2>
+<a href="~/Employee/Create">Create</a>
+
+<table class="table">
+    <tr>
+        <th>EmployeeID</th>
+        <th>LastName</th>
+        <th>FirstName</th>
+        <th>Title</th>
+        <th>Address</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model.EmployeeList)
+    {
+        <tr>
+            <td>@item.EmployeeID</td>
+            <td>@item.LastName</td>
+            <td>@item.FirstName</td>
+            <td>@item.Title</td>
+            <td>@item.Address</td>
+            <td>
+                <a href="~/Employee/Details?id=@item.EmployeeID">Edit</a>
+            </td>
+            <td>
+                <a href="~/Employee/Delete?id=@item.EmployeeID">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

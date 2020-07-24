@@ -1,0 +1,37 @@
+﻿@model CRUD_Sample1.Models.CustomersModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>客戶清單</h2>
+<a href="~/Customers/Create">Create</a>
+
+<table class="table">
+    <tr>
+        <th>CustomerID</th>
+        <th>CompanyName</th>
+        <th>ContactName</th>
+        <th>ContactTitle</th>
+        <th>Address</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model.CustomersList)
+    {
+        <tr>
+            <td>@item.CustomerID</td>
+            <td>@item.CompanyName</td>
+            <td>@item.ContactName</td>
+            <td>@item.ContactTitle</td>
+            <td>@item.Address</td>
+            <td>
+                <a href="~/Customers/Details?id=@item.CustomerID">Edit</a>
+            </td>
+            <td>
+                <a href="~/Customers/Delete?id=@item.CustomerID">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+

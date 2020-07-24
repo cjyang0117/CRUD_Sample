@@ -1,0 +1,11 @@
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\CRUD_Model.dll.config
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\CRUD_Model.dll
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\CRUD_Model.pdb
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\EntityFramework.dll
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\EntityFramework.SqlServer.dll
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\EntityFramework.xml
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\EntityFramework.SqlServer.xml
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\bin\Debug\zh-Hant\EntityFramework.resources.dll
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\obj\Debug\CRUD_Model.dll
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\obj\Debug\CRUD_Model.pdb
+d:\users\s429108\documents\visual studio 2013\Projects\CRUD_Sample1\CRUD_Model\obj\Debug\CRUD_Model.csprojResolveAssemblyReference.cache
